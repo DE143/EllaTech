@@ -75,8 +75,8 @@ inventory-app/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd inventory-app
+git clone https://github.com/DE143/EllaTech.git
+cd EllaTech
 ```
 
 2. Install dependencies:
