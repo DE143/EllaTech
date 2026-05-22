@@ -1,15 +1,22 @@
 {
   "expo": {
-    "name": "inventory-app",
+    "name": "Inventory Manager",
     "slug": "inventory-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.derese.inventoryapp"
     },
     "android": {
+      "package": "com.derese.inventoryapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca417a1f-c9fd-4203-97d3-7e6a219a745a"
+      }
     }
   }
 }
